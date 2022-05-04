@@ -1,19 +1,11 @@
-// pages/issue/issue.js
+// pages/shangpintu/shangpintu3.js
 Page({
 
     /**
      * 页面的初始数据
      */
-     data: {
-    motto: '常开免打扰',
-    // balance: '￥1250,18'
-  },
-    onClose() {
-      
-    },
+    data: {
 
-    onSelect() {
-        
     },
 
     /**
@@ -70,11 +62,5 @@ Page({
      */
     onShareAppMessage() {
 
-    },
-    changeMoney: function (e) {
-    this.setData({
-      Amount: -12345
-    })
-}
-
+    }
 })

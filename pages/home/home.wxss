@@ -93,3 +93,6 @@
     font-weight: bold;
 }
 
+.title-class{
+    font-size: 45rpx;
+}
