@@ -1,0 +1,36 @@
+<!--pages/message/message.wxml-->
+<van-notice-bar
+  text="路漫漫其修远兮，吾将上下而求索。"
+  color="#fff"
+  backgroundColor="#4682B4"
+  speed='100'
+  left-icon="info-o"
+/>
+
+<van-swipe-cell left-width="{{ 65 }}">
+    <van-cell-group>
+
+    </van-cell-group>
+</van-swipe-cell>
+
+<van-goods-action>
+  <van-goods-action-icon
+    icon="chat-o"
+    text="客服"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-icon
+    icon="cart-o"
+    text="购物车"
+    bind:click="onClickIcon"
+  />
+  <van-goods-action-button
+    text="加入购物车"
+    type="warning"
+    bind:click="onClickButton"
+  />
+  <van-goods-action-button
+    text="立即购买"
+    bind:click="onClickButton"
+  />
+</van-goods-action>

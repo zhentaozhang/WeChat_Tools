@@ -1,0 +1,95 @@
+.banner {
+    width: 100%;
+    height: 375.2rpx;
+}
+
+.banner swiper {
+    height: 100%;
+    width: 100%;
+}
+
+.banner image {
+    width: 100%;
+    height: 375.2rpx;
+}
+
+/* .majorCon {
+    display: flex;
+    padding: 20rpx 0px;
+    flex-wrap: nowrap;
+} */
+
+.major {
+    white-space: nowrap;
+    padding: 20rpx 0;
+}
+
+.majorCon{
+  display: flex;padding: 20rpx 0;
+}
+
+
+.major .box {
+    text-align: center;
+    width: 190px;
+}
+
+.major .pic {
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.major .txt {
+    font-size: 25rpx;
+    margin-top: 10rpx;
+}
+
+.pubTitle {
+    display: flex;
+    justify-content: space-between;
+    height: 60rpx;
+    align-items: center;
+}
+
+.pubTitle .txt {
+    font-size: 35rpx;
+    height: 100%;
+    position: relative;
+    padding-left: 25rpx;
+}
+
+.pubTitle .txt::before {
+    display: block;
+    width: 10rpx;
+    height: 34rpx;
+    background-color: indianred;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 35%;
+    margin-top: -15rpx;
+}
+
+/* 最新发布的商品 */
+.works{background: #f0f3f869;padding: 40rpx 0 20rpx;}
+
+.button-1 button{
+    background: linear-gradient(to left,#FFA500,#FF4500);
+    color: #fff;
+}
+.button-2 button{
+    background-color: rgb(248, 74, 74);
+    color: #fff;
+}
+
+.right{
+    background-color: red;
+    height: inherit;
+    width: 65px;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+

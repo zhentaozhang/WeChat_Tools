@@ -1,0 +1,75 @@
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" use-action-slot bind:search="onSearch">
+    <view slot="action" bind:tap="onSearch">搜索</view>
+</van-search>
+
+<view class="banner">
+    <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="#fff" circular autoplay>
+        <swiper-item>
+            <image src="../image/logo.png"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="../image/wuyi.png"></image>
+        </swiper-item>
+    </swiper>
+</view>
+
+<scroll-view class="major" scroll-x>
+    <view class="majorCon">
+        <navigator class="box" url="">
+            <image class="pic" src="/pages/image/pencil.png"></image>
+            <view class="txt">文具笔记</view>
+        </navigator>
+        <navigator class="box" url="">
+            <image class="pic" src="/pages/image/shuma.png"></image>
+            <view class="txt">闲置数码</view>
+        </navigator>
+        <navigator class="box" url="">
+            <image class="pic" src="/pages/image/meizhuang.png"></image>
+            <view class="txt">生活美妆</view>
+        </navigator>
+        <navigator class="box" url="">
+            <image class="pic" src="/pages/image/book.png"></image>
+            <view class="txt">闲置书籍</view>
+        </navigator>
+        <navigator class="box" url="">
+            <image class="pic" src="/pages/image/all.png"></image>
+            <view class="txt">全部</view>
+        </navigator>
+    </view>
+</scroll-view>
+
+<view class="works">
+    <view class="pubTitle">
+        <view class="txt">最新发布</view>
+        <!-- <navigator class="more">更多 ></navigator> -->
+    </view>
+</view>
+
+
+<van-swipe-cell right-width="{{ 65 }}">
+    <van-cell-group>
+        <van-cell>
+            <van-card tag="微损" price="49.99" origin-price="100" desc="11栋228自取" title="小王子玫瑰花生日音乐盒" thumb="/pages/image/deng.jpg">
+                <view slot="footer">
+                    <van-button round class="button-1" size="small">聊一聊</van-button>
+                    <van-button round class="button-2" size="small">立即购买</van-button>
+                </view>
+            </van-card>
+        </van-cell>
+    </van-cell-group>
+    <view slot="right" class="right">看相似</view>
+</van-swipe-cell>
+
+<van-swipe-cell right-width="{{ 65 }}">
+    <van-cell-group>
+        <van-cell>
+            <van-card tag="全新" price="6999" origin-price="8999" desc="自取，不刀" title="iPhone13" thumb="/pages/image/iphone13.jpg">
+                <view slot="footer" >
+                    <van-button round class="button-1" size="small">聊一聊</van-button>
+                    <van-button round class="button-2" size="small">立即购买</van-button>
+                </view>
+            </van-card>
+        </van-cell>
+    </van-cell-group>
+    <view slot="right" class="right">看相似</view>
+</van-swipe-cell>

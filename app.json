@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/issue/issue",
+    "pages/message/message",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "蔚园闲置",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color": "#A9A9A9",
+    "selectedColor": "#000000",
+    "list": [
+    {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/pages/image/home_a.png",
+        "selectedIconPath": "/pages/image/home.png"
+    },{
+        "pagePath": "pages/issue/issue",
+        "text":"发布",
+        "iconPath": "/pages/image/issue_a.png",
+        "selectedIconPath": "/pages/image/issue.png"
+    },{
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "/pages/image/message_a.png",
+        "selectedIconPath": "/pages/image/message.png"
+    },{
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/pages/image/my_a.png",
+        "selectedIconPath": "/pages/image/my.png"
+    }
+    ]},
+    "usingComponents": {
+      "van-panel": "/miniprogram_npm/vant-weapp/panel/index",
+      "van-field": "/miniprogram_npm/vant-weapp/field/index",
+      "van-button": "/miniprogram_npm/vant-weapp/button/index",
+      "van-card": "/miniprogram_npm/vant-weapp/card/index",
+      "van-search":"/miniprogram_npm/vant-weapp/search/index",
+      "van-swipe-cell": "/miniprogram_npm/vant-weapp/swipe-cell/index",
+      "van-notice-bar":"/miniprogram_npm/vant-weapp/notice-bar/index",
+      "van-icon":"/miniprogram_npm/vant-weapp/icon/index",
+      "van-cell-group":"/miniprogram_npm/vant-weapp/cell-group/index",
+      "van-action-sheet": "/miniprogram_npm/vant-weapp/action-sheet/index",
+      "van-goods-action": "/miniprogram_npm/vant-weapp/goods-action/index",
+      "van-goods-action-icon": "/miniprogram_npm/vant-weapp/goods-action-icon/index",
+      "van-goods-action-button": "/miniprogram_npm/vant-weapp/goods-action-button/index"
+      
+  },
+
+    "style":"v2",
+    "sitemapLocation": "sitemap.json"
+}
