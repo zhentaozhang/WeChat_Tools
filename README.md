@@ -3,7 +3,7 @@
 # Installation - 安装
 ### Requirements - 必要条件
 #### Windows
-#### 安装微信开发者工具
+#### 微信开发者工具
 * 构建npm
 ```
   npm init
