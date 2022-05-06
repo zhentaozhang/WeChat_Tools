@@ -5,18 +5,13 @@
             <image src="../image/touxiang.jpg"></image>
         </view>
         <view class="UserName">
-            <view class="user-name"  catchtap="changeMoney" >{{motto}}</view>
-            <view class="PersonalitySignature"><view class="PersonalitySignature" class='boldone'>认证:</view>滁州学院材料与化学工程学院20级在校生</view>
+            <view class="user-name" catchtap="changeMoney">{{motto}}</view>
+            <view class="PersonalitySignature">
+                <view class="PersonalitySignature" class='boldone'>认证:</view>滁州学院材料与化学工程学院20级在校生
+            </view>
         </view>
         <view class="money">{{balance}}</view>
     </view>
-    <!-- <view class="Order">
-        <view class="MyOder">我的订单</view>
-        <view class="AllofOrder">全部订单</view>
-        <view>
-            <image class="Instr" src="tishi.png"></image>
-        </view>
-    </view> -->
     <view class="State">
         <view class="Sta">
             <image src="../image/钱包.png"></image>
@@ -35,10 +30,14 @@
             <view class="Center">待评价</view>
         </view>
     </view>
-    <van-cell title="  我的信息" is-link icon="comment" size="large" />
-    <van-cell title="  我的收藏" is-link icon="star" size="large" />
-    <van-cell title="  我的订阅" is-link icon="gem" size="large" />
-    <van-cell title="  积分明细" is-link icon="medal" size="large" />
-    <van-cell title="  使用帮助" is-link icon="question" size="large" />
-    <van-cell title="  意见反馈" is-link icon="comment-circle" size="large" />
+    <van-cell-group inset>
+        <van-cell title="  我的信息" is-link icon="comment" url="/pages/my/one/xinxi" size="large" />
+        <van-cell title="  我的收藏" is-link icon="star" size="large" />
+        <van-cell title="  我的订阅" is-link icon="gem" size="large" />
+        <van-cell title="  积分明细" is-link icon="medal" size="large" />
+        <van-cell title="  使用帮助" is-link icon="question" size="large" />
+        <van-cell title="  意见反馈" is-link icon="comment-circle" size="large" />
+        <van-cell title="  账号设置" is-link icon="wap-home" size="large" />
+    </van-cell-group>
 </view>
+

@@ -96,3 +96,9 @@
 .title-class{
     font-size: 45rpx;
 }
+
+/* 点击分类的页面效果 */
+.navigator-hover{
+    border-radius: 20rpx;
+    background-color: rgba(218, 218, 218, 0.199);
+}

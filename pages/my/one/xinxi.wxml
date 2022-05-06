@@ -1,0 +1,12 @@
+<van-cell-group inset>
+    <van-cell title-class="blod" icon="manager" title="姓名" value="张振涛" />
+    <van-cell title-class="blod" icon="smile" title="学号" value="2020210183" />
+    <van-cell title-class="blod" icon="send-gift" title="专业" value="无机非金属材料工程" />
+    <van-cell title-class="blod" icon="underway" title="入学年份" value="2020" />
+    <van-cell title-class="blod" icon="map-marked" title="住址" value="11栋228" />
+    <van-cell title-class="blod" icon="phone" title="手机号" value="19805507650" />
+</van-cell-group>
+    <van-goods-action>
+        <van-goods-action-button type="primary" text-class="ziti" text="确认修改信息" color='black' bind:click="onClickButton" />
+    </van-goods-action>
+

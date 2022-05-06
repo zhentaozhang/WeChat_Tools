@@ -1,10 +1,9 @@
-/* pages/first/first.wxss */
 
-.container{
-  display: flex;
-  display: -webkit-flex;
-  align-items: left;
-  margin: 2%;
+.container {
+    display: flex;
+    display: -webkit-flex;
+    align-items: left;
+    margin: 2%;
 }
 
 .flex-container {
@@ -12,7 +11,7 @@
     display: -webkit-flex;
     align-items: center;
     background-color: #add8e6;
-    border-radius:0 0 40rpx 40rpx;
+    border-radius: 0 0 40rpx 40rpx;
 }
 
 .UserHeadImage {
@@ -20,7 +19,7 @@
     margin-left: 35rpx;
 }
 
-.UserHeadImage image{
+.UserHeadImage image {
     width: 130rpx;
     height: 130rpx;
     background-color: #00000000;
@@ -41,10 +40,11 @@
     color: black;
 }
 
-.boldone{
-  font-weight: bold;
-  font-size: 25rpx;
+.boldone {
+    font-weight: bold;
+    font-size: 25rpx;
 }
+
 .money {
     color: red;
     font-size: 30rpx;
@@ -54,7 +54,7 @@
 
 .Order {
     display: flex;
-    background-color:#00000000 ;
+    background-color: #00000000;
     margin-left: 35rpx;
 }
 
@@ -75,6 +75,7 @@
     margin: 25rpx;
     background-color: black;
     border-radius: 20rpx;
+    z-index: 999;
 }
 
 .Sta {
@@ -96,3 +97,4 @@
     background-color: #000;
     border-radius: 50rpx;
 }
+

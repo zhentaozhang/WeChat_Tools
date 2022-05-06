@@ -1,0 +1,54 @@
+<van-dropdown-menu>
+  <van-dropdown-item value="{{ value1 }}" options="{{ option1 }}" />
+  <van-dropdown-item id="item" title="{{ itemTitle }}">
+    <van-cell title="{{ switchTitle1 }}">
+      <van-switch
+        slot="right-icon"
+        size="24px"
+        style="height: 26px"
+        checked="{{ switch1 }}"
+        active-color="#ee0a24"
+        bind:change="onSwitch1Change"
+      />
+    </van-cell>
+    <van-cell title="{{ switchTitle2 }}">
+      <van-switch
+        slot="right-icon"
+        size="24px"
+        style="height: 26px"
+        checked="{{ switch2 }}"
+        active-color="#ee0a24"
+        bind:change="onSwitch2Change"
+      />
+    </van-cell>
+    <view style="padding: 5px 16px;">
+      <van-button type="danger" block round bind:click="onConfirm">
+        确认
+      </van-button>
+    </view>
+  </van-dropdown-item>
+</van-dropdown-menu>
+
+
+ <van-swipe-cell right-width="{{ 65 }}">
+            <van-cell-group>
+                <van-card thumb-link="../../../pages/shangpintu/shangpintu1" tag="微损" price="49.99" origin-price="100" desc="11栋228自取" title="小王子玫瑰花生日音乐盒" thumb="/pages/image/deng.jpg" />
+            </van-cell-group>
+            <view slot="right" class="right">看相似</view>
+        </van-swipe-cell>
+
+
+        <van-swipe-cell right-width="{{ 65 }}">
+            <van-cell-group>
+                <van-card thumb-link="../shangpintu/shangpintu1" tag="全新" price="6999" origin-price="8999" desc="自取，不刀" title="iPhone13 256G" thumb="/pages/image/iphone13.jpg" />
+            </van-cell-group>
+            <view slot="right" class="right">看相似</view>
+        </van-swipe-cell>
+
+
+        <van-swipe-cell right-width="{{ 65 }}">
+            <van-cell-group>
+                <van-card thumb-link="../shangpintu/shangpintu3" tag="全新" price="16.50" origin-price="25" desc="11栋228自取" title="迷你玻璃水杯全新未拆" thumb="/pages/image/水杯.jpg" />
+            </van-cell-group>
+            <view slot="right" class="right">看相似</view>
+        </van-swipe-cell>

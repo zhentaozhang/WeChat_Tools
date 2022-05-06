@@ -1,1 +1,15 @@
-/* pages/issue/issue.wxss */
+van-field .yang-shi{
+    height: 150rpx;
+}
+
+.photo{
+    margin: 50rpx;
+}
+
+.school{
+    margin: 30rpx;
+    display:flex;
+    float: left;
+    line-height: 55rpx;
+    padding: 10rpx;
+}

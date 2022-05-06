@@ -2,7 +2,6 @@
 // var url='../image/iphone13.jpg';
 
 Page({
-
     /**
      * 页面的初始数据
      */

@@ -1,36 +1,81 @@
-// pages/issue/issue.js
+// pages/message/message.js
+
+import Toast from '../../miniprogram_npm/@vant/weapp/toast/toast' //导入vant的提示
+const DB = wx.cloud.database().collection("list")
+let url = ""
 Page({
-
-    /**
-     * 页面的初始数据
-     */
     data: {
-        show: false,
-        action: [{
-                name: "选项"
-            },
-            {
-                name: "分享",
-                subname: "描述信息",
-                openType: "share"
-            },
-            {
-                locding: true
-            },
-            {
-                name: "禁用选项",
-                disabled: true
-            },
-        ]
-    },
-    onClose() {
-        this.setData({
-            show: false
-        });
+        fileList: [],
     },
 
-    onSelect(event) {
-        console.log(event.detail);
+    addData() {
+        const {
+            fileList = []
+        } = this.data;
+        if (fileList.length == 0 || fileList[0].status == "uploading") {
+            Toast.fail("图片正在上传，请等待~");
+        } else {
+            var fileID = this.data.fileID
+            Toast.success("上传成功");
+            DB.add({
+                data: {
+                    url: url,
+                    fileID: fileID
+                },
+                success(res) {
+                    console.log("添加成功", res)
+                },
+                fail() {
+                    console.log("添加失败", res)
+                }
+            })
+        }
+    },
+    //点击上传图片后的状态
+    afterRead(event) {
+        const {
+            file
+        } = event.detail;
+        const {
+            fileList = []
+        } = this.data;
+        fileList.push({})
+        fileList[0].status = 'uploading'
+        this.setData({
+            fileList
+        });
+        this.uploadImage(file.url);
+    },
+    //上传到云开发的存储中
+    uploadImage(fileURL) {
+        var that = this
+        wx.cloud.uploadFile({
+            cloudPath: new Date().getTime() + ".png",
+            filePath: fileURL,
+            success: res => {
+                that.addImagePath(res.fileID)
+                that.setData({
+                    fileID: res.fileID
+                })
+            },
+            fail: console.error
+        })
+    },
+
+    //点击预览的x号，将图片删除
+    deleteImg(event) {
+        const delIndex = event.detail.index
+        const {
+            fileList
+        } = this.data
+        fileList.splice(delIndex, 1)
+        this.setData({
+            fileList
+        })
+
+        //在云存储中删除
+        var fileID = this.data.fileID;
+        this.remove(fileID)
     },
 
     /**

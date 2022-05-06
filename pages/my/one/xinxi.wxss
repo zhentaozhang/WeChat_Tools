@@ -1,0 +1,9 @@
+/* pages/my/one/xinxi.wxss */
+van-cell .blod{
+    /* font-weight:bold; */
+    color: rgb(54, 53, 53);
+}
+van-goods-action-button .ziti{
+font-weight: bold;
+color: black;
+}
