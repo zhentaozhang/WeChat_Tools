@@ -9,11 +9,8 @@
 />
 
 </view>
-
-<van-empty image="search" description="快去和好朋友聊聊天吧！" />
-<!-- <view>
-    <van-skeleton title avatar animate row="3" />
-</view>
-<view>
-    <van-skeleton title avatar animate row="3" />
-</view> -->
+<van-empty
+  class="custom-image"
+  image="/pages/image/暂无记录.png"
+  description="快去和好朋友聊聊天吧！"
+/>

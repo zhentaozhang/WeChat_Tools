@@ -74,14 +74,12 @@
     </van-tab>
 
     <van-tab title="聊一聊">
-        <van-empty image="search" description="正在开发中..." />
+        <van-empty class="custom-image" image="/pages/image/暂无记录.png" description="还未与好朋友们聊过喔~" />
         <view>
             <van-skeleton title avatar animate row="3" />
         </view>
         <view>
             <van-skeleton title avatar animate row="3" />
         </view>
-
-        <!-- <van-notice-bar text="禁止发布不良言论" color="#fff" backgroundColor="#4682B4" left-icon="info-o" /> -->
     </van-tab>
 </van-tabs>

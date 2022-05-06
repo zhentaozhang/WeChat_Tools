@@ -13,7 +13,12 @@
         "pages/home/1/shenghuomeizhuang",
         "pages/home/1/xianzhishuji",
         "pages/my/one/xinxi",
-        "pages/my/one/zhnaghao"
+        "pages/my/one/zhanghao",
+        "pages/my/one/help",
+        "pages/my/two/a",
+        "pages/my/two/b",
+        "pages/my/two/c",
+        "pages/my/two/d"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -77,8 +82,11 @@
         "van-cell-group": "@vant/weapp/cell-group/index",
         "van-toast": "@vant/weapp/toast/index",
         "van-tabbar": "@vant/weapp/tabbar/index",
-        "van-tabbar-item": "@vant/weapp/tabbar-item/index"
-
+        "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+        "van-collapse": "@vant/weapp/collapse/index",
+        "van-collapse-item": "@vant/weapp/collapse-item/index",
+        "van-switch": "@vant/weapp/switch/index",
+        "van-image": "@vant/weapp/image/index"
     },
 
     "sitemapLocation": "sitemap.json"

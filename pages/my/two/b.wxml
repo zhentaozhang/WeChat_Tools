@@ -1,0 +1,5 @@
+<van-empty
+  class="custom-image"
+  image="/pages/image/暂无记录.png"
+  description="未曾发布过求购信息~"
+/>

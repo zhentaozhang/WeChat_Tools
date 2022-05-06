@@ -1,0 +1,5 @@
+    <van-cell-group inset>
+<van-cell title="个人信息共享清单" is-link icon="lock" size="large" />
+<van-cell title="清除缓存" is-link icon="clear" size="large" />
+<van-cell title="隐私政策摘要" is-link icon="info" size="large" />
+</van-cell-group>

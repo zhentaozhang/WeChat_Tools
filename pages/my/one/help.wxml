@@ -1,0 +1,13 @@
+<van-cell-group inset>
+    <van-collapse accordion value="{{ activeName }}" bind:change="onChange" clickable>
+        <van-collapse-item title="GitHub源码地址" name="1">
+            https://github.com/zhentaozhang/WeChat_Tools.git
+        </van-collapse-item>
+        <van-collapse-item title="公众号" name="2">
+            请搜索同名微信公众号
+        </van-collapse-item>
+        <van-collapse-item title="联系客服" name="3">
+            QQ:321799910
+        </van-collapse-item>
+    </van-collapse>
+</van-cell-group>

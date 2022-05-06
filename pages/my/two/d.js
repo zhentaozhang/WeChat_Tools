@@ -1,4 +1,4 @@
-// pages/my/one/zhnaghao.js
+// pages/my/two/d.js
 Page({
 
     /**

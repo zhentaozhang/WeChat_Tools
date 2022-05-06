@@ -5,8 +5,10 @@
     <van-cell title-class="blod" icon="underway" title="入学年份" value="2020" />
     <van-cell title-class="blod" icon="map-marked" title="住址" value="11栋228" />
     <van-cell title-class="blod" icon="phone" title="手机号" value="19805507650" />
+    <van-cell title-class="blod" icon="card" title="隐藏信息">
+        <switch type="switch" checked="" bindchange="listenerSwitch" />
+    </van-cell>
 </van-cell-group>
-    <van-goods-action>
-        <van-goods-action-button type="primary" text-class="ziti" text="确认修改信息" color='black' bind:click="onClickButton" />
-    </van-goods-action>
-
+<!-- <van-goods-action>
+    <van-goods-action-button type="primary" text-class="ziti" text="确认修改信息" color='black' bind:click="onClickButton" />
+</van-goods-action> -->
