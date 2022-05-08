@@ -1,4 +1,4 @@
-// pages/shangpintu/shangpintu3.js
+// pages/my/one/yijian.js
 Page({
 
     /**

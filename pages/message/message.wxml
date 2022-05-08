@@ -1,16 +1,9 @@
 <!--pages/message/message.wxml-->
 <view>
-<van-notice-bar
-  text="路漫漫其修远兮，吾将上下而求索。"
-  color="#fff"
-  backgroundColor="#4682B4"
-  speed='100'
-  left-icon="info-o"
-/>
-
+    <van-notice-bar text="路漫漫其修远兮，吾将上下而求索。" color="#fff" backgroundColor="#4682B4" speed='100' left-icon="info-o" />
 </view>
-<van-empty
-  class="custom-image"
-  image="/pages/image/暂无记录.png"
-  description="快去和好朋友聊聊天吧！"
-/>
+<view>
+    <van-skeleton title row="3" />
+    <van-empty class="custom-image" image="http://124.220.169.85/wp-content/uploads/2022/05/页面为空.png" description="快去和好朋友聊聊天吧！" />
+    <van-skeleton title row="3" />
+</view>

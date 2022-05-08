@@ -1,0 +1,5 @@
+<view>
+    <van-skeleton title row="3" />
+    <van-empty class="custom-image" image="http://124.220.169.85/wp-content/uploads/2022/05/不小心迷路了.png" description="还未获得积分喔~" />
+    <van-skeleton title row="3" />
+</view>

@@ -1,0 +1,3 @@
+<van-skeleton title row="3" />
+<van-empty class="custom-image" image="http://124.220.169.85/wp-content/uploads/2022/05/文件夹为空.png" description="还没有订阅喔~" />
+<van-skeleton title row="4" />

@@ -1,4 +1,4 @@
-// pages/shangpintu/shangpintu1.js
+// pages/my/one/dingyue.js
 Page({
 
     /**

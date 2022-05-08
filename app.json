@@ -4,9 +4,6 @@
         "pages/issue/issue",
         "pages/message/message",
         "pages/my/my",
-        "pages/shangpintu/shangpintu1",
-        "pages/shangpintu/shangpintu2",
-        "pages/shangpintu/shangpintu3",
         "pages/home/1/quanbufenlei",
         "pages/home/1/wenjubiji",
         "pages/home/1/xianzhishuma",
@@ -15,6 +12,9 @@
         "pages/my/one/xinxi",
         "pages/my/one/zhanghao",
         "pages/my/one/help",
+        "pages/my/one/dingyue",
+        "pages/my/one/jifen",
+        "pages/my/one/yijian",
         "pages/my/two/a",
         "pages/my/two/b",
         "pages/my/two/c",
@@ -36,7 +36,7 @@
             "selectedIconPath": "/pages/image/home.png"
         }, {
             "pagePath": "pages/issue/issue",
-            "text": "发布",
+            "text": "转让",
             "iconPath": "/pages/image/issue_a.png",
             "selectedIconPath": "/pages/image/issue.png"
         }, {
@@ -59,7 +59,6 @@
         "van-swipe-cell": "/miniprogram_npm/vant-weapp/swipe-cell/index",
         "van-notice-bar": "/miniprogram_npm/vant-weapp/notice-bar/index",
         "van-icon": "/miniprogram_npm/vant-weapp/icon/index",
-        "van-action-sheet": "/miniprogram_npm/vant-weapp/action-sheet/index",
         "van-tab": "/miniprogram_npm/vant-weapp/tab/index",
         "van-tabs": "/miniprogram_npm/vant-weapp/tabs/index",
         "van-nav-bar": "/miniprogram_npm/vant-weapp/nav-bar/index",
@@ -86,7 +85,11 @@
         "van-collapse": "@vant/weapp/collapse/index",
         "van-collapse-item": "@vant/weapp/collapse-item/index",
         "van-switch": "@vant/weapp/switch/index",
-        "van-image": "@vant/weapp/image/index"
+        "van-image": "@vant/weapp/image/index",
+        "van-tag": "@vant/weapp/tag/index",
+        "van-action-sheet": "@vant/weapp/action-sheet/index",
+        "van-dialog": "/miniprogram_npm/@vant/weapp/dialog/index"
+        
     },
 
     "sitemapLocation": "sitemap.json"

@@ -42,10 +42,10 @@
 
     <van-cell-group inset>
         <van-cell title="  我的信息" is-link icon="comment" url="/pages/my/one/xinxi" size="large" />
-        <van-cell title="  我的订阅" is-link icon="gem" size="large" />
-        <van-cell title="  积分明细" is-link icon="medal" size="large" />
+        <van-cell title="  我的订阅" is-link icon="gem" url="/pages/my/one/dingyue" size="large" />
+        <van-cell title="  积分明细" is-link icon="medal" url="/pages/my/one/jifen" size="large" />
         <van-cell title="  使用帮助" is-link icon="question" url="/pages/my/one/help" size="large" />
-        <van-cell title="  意见反馈" is-link icon="comment-circle" size="large" />
+        <!-- <van-cell title="  意见反馈" is-link icon="comment-circle" url="/pages/my/one/yijian" size="large" /> -->
         <van-cell title="  账号设置" is-link icon="wap-home" url="/pages/my/one/zhanghao" size="large" />
     </van-cell-group>
 </view>

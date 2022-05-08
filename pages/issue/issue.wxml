@@ -1,4 +1,4 @@
-<van-field value="{{ username }}" left-icon="point-gift" clearable label="物品名称" icon="question-o" placeholder="请输入物品名称" />
+<!-- <van-field value="{{ username }}" left-icon="point-gift" clearable label="物品名称" icon="question-o" placeholder="请输入物品名称" />
 <van-field value="{{ value }}" left-icon="phone-circle" label="联系方式" placeholder="请输入微信号" border="{{ false }}" />
 <van-cell-group>
     <van-field placeholder="简单描述物品购入途径及使用情况" type="textarea" label-width="200px" border="{{ false }}" maxlength="100" show-word-limit input-class="yang-shi" bind:change="onChange" />
@@ -6,16 +6,15 @@
 <!-- <van-divider contentPosition="center" fontSize="18"></van-divider> -->
 
 
-
-<view class="photo">
+<!-- <view class="photo"> -->
     <!-- <van-uploader upload-text="选取图片" multiple="{{true}}" file-list="{{ fileList }}" bind:after-read="afterRead" bind:delete="deleteImg" deletable="{{ true }}" /> -->
-    <van-uploader>
+    <!-- <van-uploader>
         <van-button icon="photo" type="primary">上传图片</van-button>
-    </van-uploader>
-</view>
-<van-divider contentPosition="center" fontSize="18"></van-divider>
+    </van-uploader> -->
+<!-- </view>
+<van-divider contentPosition="center" fontSize="18"></van-divider> -->
 
-<view class="school">
+<!-- <view class="school">
     <view>你所在校区: </view>
     <view>
         <van-radio-group value="{{ radio }}" bind:change="onChange" direction="horizontal">
@@ -23,8 +22,14 @@
             <van-radio name="2">琅琊校区</van-radio>
         </van-radio-group>
     </view>
-</view>
-
+</view> --> 
+<!-- 
 <van-goods-action>
     <van-goods-action-button text="立即发布" color='black' bind:click="onClickButton" />
-</van-goods-action>
+</van-goods-action> -->
+
+<view>
+    <van-skeleton title row="3" />
+    <van-empty class="custom-image" image="http://124.220.169.85/wp-content/uploads/2022/05/无内容.png" description="还没有转让信息喔~" />
+    <van-skeleton title row="3" />
+</view>

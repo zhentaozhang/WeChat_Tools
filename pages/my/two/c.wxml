@@ -1,5 +1,5 @@
 <van-empty
   class="custom-image"
-  image="/pages/image/暂无记录.png"
+  image="http://124.220.169.85/wp-content/uploads/2022/05/没有收藏.png"
   description="未曾过收藏过~"
 />

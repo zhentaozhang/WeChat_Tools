@@ -17,6 +17,6 @@
 
 <van-empty
   class="custom-image"
-  image="/pages/image/暂无记录.png"
+  image="http://124.220.169.85/wp-content/uploads/2022/05/购物车为空.png"
   description="还没有好朋友发布过物品呦~"
 />

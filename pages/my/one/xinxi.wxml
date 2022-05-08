@@ -1,4 +1,4 @@
-<van-cell-group inset>
+<!-- <van-cell-group inset>
     <van-cell title-class="blod" icon="manager" title="姓名" value="张振涛" />
     <van-cell title-class="blod" icon="smile" title="学号" value="2020210183" />
     <van-cell title-class="blod" icon="send-gift" title="专业" value="无机非金属材料工程" />
@@ -8,7 +8,11 @@
     <van-cell title-class="blod" icon="card" title="隐藏信息">
         <switch type="switch" checked="" bindchange="listenerSwitch" />
     </van-cell>
-</van-cell-group>
+</van-cell-group> -->
 <!-- <van-goods-action>
     <van-goods-action-button type="primary" text-class="ziti" text="确认修改信息" color='black' bind:click="onClickButton" />
 </van-goods-action> -->
+<van-skeleton title row="3" />
+
+ <van-empty class="custom-image" image="http://124.220.169.85/wp-content/uploads/2022/05/页面为空.png" description="还没有信息喔~" />
+ <van-skeleton title row="3" />
